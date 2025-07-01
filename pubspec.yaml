@@ -1,0 +1,44 @@
+name: network_scanner_app
+description: A Fing-like network scanner with advanced features.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  network_tools: ^3.2.2
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  speed_test_dart: ^1.0.0
+  wake_on_lan: ^2.0.0
+  flutter_local_notifications: ^17.1.2
+  network_info_plus: ^6.1.4
+  dart_ping: ^9.0.1
+  csv: ^5.0.2
+  share_plus: ^7.2.1
+  path_provider: ^2.0.15
+  file_picker: ^8.0.0
+  workmanager: ^0.5.2
+  firebase_core: ^3.0.0
+  cloud_firestore: ^5.0.0
+  firebase_auth: ^5.0.0
+  fl_chart: ^0.67.0
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  uuid: ^4.0.0
+  
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/oui.csv
